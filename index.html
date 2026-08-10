@@ -683,13 +683,9 @@ async function copyQuickMessage() {
 
 function clearQuickText() {
   const textarea = document.getElementById("quickText");
-
   if (!textarea) return;
-
   textarea.value = "";
-
   autoResizeQuickText();
-
   textarea.focus();
 }
 
